@@ -1,0 +1,30 @@
+Name Aarush Ganji and Oko Lokko
+
+Files:
+40image.c - compresses or decompresses an input file based on command line arg
+a2plain.c - implements an array manipulation interfaed based on UArray2_T
+BITPACK.C - allows for bitpacking which allows for inserting and extracting
+unsigned and signed into 64 __BIGGEST_ALIGNMENT__
+chroma_processing - processes YPbPr images by breaking them into 2x2 blocks
+manipulating chroma componenets, and reassembling the image
+color_conversion - implements conversion between RGB colorspace and YPbPr 
+colorspace
+compress40.c -implements the compression and decompression functions for 
+image_processing - write image data to files in both a compressed format and
+ PPM format
+ io - defines functions to write image data to files
+ ppmdiff - checks if the 2 images are different and by how much
+quantization - defines functions for quantizing and packing coefficients 
+into codewords and unpacks them and dequantizing them
+transform - implements functions to perform discrete cosine transform and 
+the inverse on image data,
+uarray2.c - implement 2 dimensional array structure
+
+Help: TAs 
+
+Identify what has been correctly implemented: all files have been correclty 
+implemented
+
+Approximately how many hours: 20
+Approximately how many hours solving problems: 20
+
