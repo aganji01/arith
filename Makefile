@@ -70,7 +70,7 @@ all: ppmdiff 40image
 # Build the 'ppmdiff' executable.
 # Assuming 'ppmdiff.c' exists and requires only 'ppmdiff.o'.
 # If 'ppmdiff' depends on other object files, add them accordingly.
-ppmdiff: ppmdiff.o
+ppmdiff: ppmdiff.o uarray2.o a2plain.o 
 	$(CC) $(LDFLAGS) $^ -o $@ $(LDLIBS)
 
 ## Clean rule
